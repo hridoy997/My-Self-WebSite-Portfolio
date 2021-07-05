@@ -4,14 +4,18 @@ body{
     
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-image: url(img/bg.png);
+}
+.banner .link-buttom{
+    color: wheat;
 }
 
-span{
+.banner span{
     color: rgb(253, 93, 44);
 }
 
 .top-banner{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     background-image: url(img/bg-image-female.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -33,17 +37,24 @@ span{
 
 .second-banner{
     display: flex;
+    padding-bottom: 200px;
 }
 
 .half-width{
     width: 50%;
 }
 
+.img{
+    border-radius: 25px;
+    float: right;
+    margin-right: 150px;
+}
+
 .about{
-    padding: 30px;
+    padding-right: 100px;
 }
 .about h1{
-    font-size: 50px;
+    font-size: 60px;
 }
 .about-me{
     padding: 50px 0;
@@ -53,7 +64,59 @@ span{
     
 }
 .skill{
-    padding: 30px;
-    margin-right: 50px;
     width: 50%;
+    padding: 25px 150px 25px 0px;
+}
+.Contact-me{
+    display: flex;
+    padding-bottom: 200px;
+}
+.Contact-me .half-width{
+    width: 50%;
+}
+.hire-me{
+    padding: 0px 5px 10px 100px;
+}
+.Contact h1{
+    font-size: 50px;
+}
+.Contact .call{
+    font-size: 20px;
+}
+.Contact a{
+    text-decoration: none;
+}
+.box{
+    width: 500px;
+    padding: 20px;
+}
+input{
+    outline: none;
+     border: 1px solid #a0d18c;
+     border-radius: 10px;
+}
+#box{
+    width: 500px;
+    padding: 10px;
+}
+button{
+    background-color: rgb(253, 93, 44);
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.box #message{
+    width: 510px;
+    height: 150px;
+    border: 1px solid #a0d18c;
+}
+.image{
+    width: 90%;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
 }
